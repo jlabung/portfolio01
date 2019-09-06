@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Hepta+Slab:300,400&display=swap"rel="stylesheet");
 
 *  {
 	box-sizing: border-box;
@@ -29,7 +30,7 @@ nav{
 }
 
 ul li a {
-	font-family: Hepta Slab;
+	font-family: 'Hepta Slab', serif;
 	font-size: 22px;
 	text-decoration: none;
 	float: right;
@@ -59,7 +60,7 @@ nav ul li{
 }
 
 a {
-	font-family: Hepta Slab;
+	font-family: 'Hepta Slab', serif;
 	font-size: 18px;
 	padding-top: 1rem;
 	padding-left: 1rem;
@@ -68,7 +69,7 @@ a {
 }
 
 h1 {
-	font-family: Hepta Slab, serif;
+	font-family: 'Hepta Slab', serif;
 	font-size: 28px;
 	text-transform: capitalize;
 	margin: 7rem 0 0 0;
@@ -76,14 +77,14 @@ h1 {
 }
 
 p {
-	font-family: Hepta Slab, sans-serif;
+	font-family: 'Hepta Slab', serif;
 	font-size: 20px;
 	padding: 1rem;
 	margin-top: -2rem;
 }
 
 h2 {
-	font-family: Hepta Slab, sans-serif;
+	font-family: 'Hepta Slab', serif;
 	font-size: 24px;
 	padding-left: 1rem;
 	text-transform: capitalize;

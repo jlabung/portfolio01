@@ -23,7 +23,7 @@ body {
 }
 
 ul li a {
-	font-family: Hepta Slab, serif;
+	font-family: 'Hepta Slab', serif;
 	font-size: 22px;
 	float: right;
 	margin: 1rem;
@@ -37,31 +37,15 @@ li {
 	list-style: none;
 }
 
-footer img {
-	width: 5%;
-	height: auto;
+footer a img{
+	width: 4%;
+	margin: 1rem;
+	padding-top: 90vh;
 
 }
 
-.fb {
-	position: fixed;
-	bottom: 2vh;
-}
-
-.inst {
-	position: fixed;
-	bottom: 2vh;
-	left: 6vw;
-}
-
-.lkd {
-	position: fixed;
-	bottom: 2vh;
-	left: 12vw;
-
-}
 h1 {
-	font-family: Hepta Slab, serif;
+	font-family: 'Hepta Slab', serif;
 	font-size: 28px;
 	position: absolute;
 	top: 45vh;
@@ -82,7 +66,7 @@ h1 {
 
 
 h2 {
-	font-family: Hepta Slab, serif;
+	font-family: 'Hepta Slab', serif;
 	font-size: 28px;
 	position: absolute;
 	top: 50vh;
