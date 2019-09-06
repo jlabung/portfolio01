@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Hepta+Slab:300,400&display=swap"rel="stylesheet");
+
+body {
+	background-image: url(image/bg_00.jpg);
+/*	background-color: #cccccc;*/
+	height: 940px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+
+}
+
+.background {
+	background-attachment: fixed;
+	background-position: center;
+	max-width: 100%;
+}
+
+#home {
+	background-color: white;
+	color: black;
+}
+
+ul li a {
+	font-family: Hepta Slab, serif;
+	font-size: 22px;
+	float: right;
+	margin: 1rem;
+	text-decoration: none;
+	color: black;
+	z-index: 1;
+
+}
+
+li {
+	list-style: none;
+}
+
+footer img {
+	width: 5%;
+	height: auto;
+
+}
+
+.fb {
+	position: fixed;
+	bottom: 2vh;
+}
+
+.inst {
+	position: fixed;
+	bottom: 2vh;
+	left: 6vw;
+}
+
+.lkd {
+	position: fixed;
+	bottom: 2vh;
+	left: 12vw;
+
+}
+h1 {
+	font-family: Hepta Slab, serif;
+	font-size: 28px;
+	position: absolute;
+	top: 45vh;
+	left: 20vw;
+	color: whitesmoke;
+	animation: moveto30 2s forwards;
+}
+
+@keyframes moveto30 {
+	from {
+		transform: translate(0vw);
+	}
+
+	to {
+		transform: translate(20vw);
+	}
+}
+
+
+h2 {
+	font-family: Hepta Slab, serif;
+	font-size: 28px;
+	position: absolute;
+	top: 50vh;
+	left: 30vw;
+	color: whitesmoke;
+	animation: fade 5s infinite;
+	animation-delay: 4s;
+}
+
+@keyframes fade {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: .9;
+	}
+}
+

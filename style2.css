@@ -1,0 +1,110 @@
+
+*  {
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #072F5F;
+}
+
+nav{
+	overflow: auto;
+}
+
+@media only screen and (min-width: 380px) {
+	#wrap>div {
+		display: grid;
+		grid-template-columns: 1fr;
+		margin: 0 auto;
+		grid-row-gap: 1rem;
+	}
+}
+
+@media only screen and (min-width: 720px) {
+	#wrap {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 2rem;
+	}
+}
+
+ul li a {
+	font-family: Hepta Slab;
+	font-size: 22px;
+	text-decoration: none;
+	float: right;
+	margin: 1rem;
+	color: black;
+	cursor: pointer;
+	justify-content: center;
+}
+
+li {
+	list-style: none;
+	list-style-type: none;
+}{
+
+}
+nav ul li{
+}
+#wrap{
+	position: relative;
+	margin-left: 4rem;
+}
+
+#content1{
+	background-color: whitesmoke;
+	color: black;
+	align-content: center;
+}
+
+a {
+	font-family: Hepta Slab;
+	font-size: 18px;
+	padding-top: 1rem;
+	padding-left: 1rem;
+	padding-bottom: 1rem;
+	margin-top: -2rem;
+}
+
+h1 {
+	font-family: Hepta Slab, serif;
+	font-size: 28px;
+	text-transform: capitalize;
+	margin: 7rem 0 0 0;
+	padding: 1rem;
+}
+
+p {
+	font-family: Hepta Slab, sans-serif;
+	font-size: 20px;
+	padding: 1rem;
+	margin-top: -2rem;
+}
+
+h2 {
+	font-family: Hepta Slab, sans-serif;
+	font-size: 24px;
+	padding-left: 1rem;
+	text-transform: capitalize;
+	margin-top: -2rem ;
+}
+
+div.container01 {
+	background-color: yellow;
+}
+
+div.container2 {
+	background-color: yellow;
+}
+
+div.container3 {
+	background-color: yellow;
+}
+
+div.container4 {
+	background-color: yellow;
+}
+
+
+
