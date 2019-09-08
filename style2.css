@@ -1,17 +1,17 @@
-*  {
+* {
 	box-sizing: border-box;
 }
 
-body{
+body {
 	background-color: #072F5F;
 }
 
-nav{
+nav {
 	overflow: auto;
 }
 
 @media only screen and (min-width: 380px) {
-	#wrap>div {
+	#wrap > div {
 		display: grid;
 		grid-template-columns: 1fr;
 		margin: 0 auto;
@@ -41,17 +41,15 @@ ul li a {
 li {
 	list-style: none;
 	list-style-type: none;
-}{
+}
 
-}
-nav ul li{
-}
-#wrap{
+
+#wrap {
 	position: relative;
 	margin-left: 4rem;
 }
 
-#content1{
+#content1 {
 	background-color: whitesmoke;
 	color: black;
 	align-content: center;
@@ -86,7 +84,7 @@ h2 {
 	font-size: 24px;
 	padding-left: 1rem;
 	text-transform: capitalize;
-	margin-top: -2rem ;
+	margin-top: -2rem;
 }
 
 div.container01 {
@@ -104,6 +102,3 @@ div.container3 {
 div.container4 {
 	background-color: yellow;
 }
-
-
-
